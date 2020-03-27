@@ -1,0 +1,539 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.temizleyici{
+    clear: both;
+}
+.kapsayici{
+
+}
+.fixed{
+    border-radius: 380px;
+    background-color: orange;
+    display: inline;
+    position: fixed;
+    left: 90%;
+    top: 90%;
+}
+.up{
+    color: white;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+
+}
+.menu{
+    background:#e62f2f ;
+    height: 60px;
+    width: 100%;
+}
+
+.menuNesnesi{
+    text-align: center;
+    float: left;
+    margin-top: 18px;
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 30px;
+}
+
+.menuNesnesi:hover{
+    border-bottom: 2px solid white;
+}
+
+.menuNesnesiYazi{
+    margin-top: 22.5px;
+    height: 35.5px;
+    position: relative;
+}
+.menuNesnesi:hover .acilir{
+    visibility: visible;
+}
+.acilir{
+    visibility: hidden;
+    position: absolute;
+    bottom: 100;
+    list-style-type: none;
+    z-index: 9999;
+}
+.acilir a{
+    display: block;
+    color: #000;
+    text-decoration: none;
+    padding: 5px 5px;
+    background-color: #fff;
+    font-weight: 1;
+    text-align: start;
+}
+
+.menuNesnesi .logo{
+    width: 142px;
+}
+.menuNesnesi i{
+    width: 50px;
+    color: white;
+    font-size: 20px;
+}
+.hiza{
+    margin-left: 10px;
+}
+.Haberler{
+    width: 100%;
+    float: left;
+    position: relative;
+    background-color: #eee;
+    padding: 0px;  
+}
+.android-icon{
+    padding: 10px;
+    color: #fff;
+    border-radius: 50%;
+}
+.haber1{
+    background-image: url('https://picsum.photos/600/400');
+    height: 404px;
+    width: calc(50% - 8px);
+    font-size: 1.875em;
+    margin: 5px;
+    position: relative; 
+}
+.metin{
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    color: white;
+   
+}
+.hbr{
+    background-color: orange;
+    color: white;
+    font-size: 13px;
+    display: inline-block;
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    padding: 5px;
+}
+.altyazi{
+    color: #999;
+    display: inline-block;
+    font-size: 14px;
+    position: relative;
+    top: 90%;
+    left: 5%;
+}
+.althiza{
+    color: #999;
+    display: inline-block;
+    font-size: 14px;
+    position: relative;
+    top: 90%;
+    left: 10%;
+}
+.haber2{
+    background-image: url('https://picsum.photos/500/400');
+    height: 404px;
+    width: calc(25% - 8px);
+    font-size: 1.25em;
+    margin: 5px;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+}
+.haber3{
+    background-image: url('https://picsum.photos/450/200');
+    font-size: 1em;
+    width:  calc(25% - 8px);
+    height: 200px;
+    margin: 5px;
+    margin-left: 75.2%;
+    position: relative;
+}
+.altyazi3{
+    color: #999;
+    display: inline-block;
+    font-size: 14px;
+    position: absolute;
+    top: 90%;
+    left: 5%;
+}
+.althiza3{
+    color: #999;
+    display: inline-block;
+    font-size: 14px;
+    position: absolute;
+    top: 90%;
+    left: 25%;
+}
+.bolum1{
+    width: 70%;
+    position: relative;
+    margin-top: 3%; 
+}
+.yayınAkisi span{
+    color: #ff5722;
+    font-size: 1.375em;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-left: 15%;
+}
+
+.bolum1 i {
+    color: gray;
+    margin-left: 10px;
+    opacity: 0.5;
+}
+.altHaberler{
+    position: absolute;
+    left: 10%;
+    top: 50px;
+    width: 20%;
+}
+.altHaberler i{
+    background-color: orange;
+    text-align: center;
+}
+.icons{
+    position: relative;
+    left: -2%;
+    top: 5px;
+    color: gray;
+    font-size: .6875em;
+}
+.haber4{
+    background-image: url('https://picsum.photos/450/200');
+    font-size: 1em;
+    width:  calc(20% - 8px);
+    height: 162px;
+    position: absolute;
+    left: 15%;
+    top: 80%;
+}
+.yayinhizalama{
+    position: absolute;
+    left: 36%;
+    top: 80%;
+}
+.yayinhizalama i{
+    color: gray;
+    opacity: 0.6;
+    margin-top: 10px;
+}
+.yayinyazi{
+    font-size: 20px;
+    font-weight: bold;
+}
+.mobil {
+    color: gray;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.isim{
+    color: gray;
+    display: inline-block;
+}
+.icons2{
+    position: relative;
+    left: -2%;
+    top: 85px;
+    color: gray;
+    font-size: .6875em;
+}
+.haber42{
+    background-image: url('https://picsum.photos/450/200');
+    font-size: 1em;
+    width:  calc(20% - 8px);
+    height: 162px;
+    position: absolute;
+    left: 15%;
+    top: 110%;
+}
+
+.yayinhizalama2{
+    position: absolute;
+    left: 36%;
+    top: 110%;
+}
+.mobil2{
+    color: gray;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.yayinyazi2{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.isim2{
+    color: gray;
+    display: inline-block;
+}
+.yayinhizalama2 i{
+    color: gray;
+    opacity: 0.6;
+    margin-top: 10px;   
+}
+
+.icons3{
+    position: relative;
+    left: -10%;
+    top: 105px;
+    color: gray;
+    font-size: .6875em;
+}
+.haber43{
+    background-image: url('https://picsum.photos/450/200');
+    font-size: 1em;
+    width:  calc(20% - 8px);
+    height: 162px;
+    position: absolute;
+    left: 15%;
+    top: 140%;
+}
+
+.yayinhizalama3{
+    position: absolute;
+    left: 36%;
+    top: 140%;
+}
+.mobil3{
+    color: gray;
+    font-weight: bold;
+    margin-top: 40px;
+}
+.yayinyazi3{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.isim3{
+    color: gray;
+    display: inline-block;
+}
+.yayinhizalama3 i{
+    color: gray;
+    opacity: 0.6;
+    margin-top: 10px;   
+}
+.icons4{
+    position: relative;
+    left: -10%;
+    top: 105px;
+    color: gray;
+    font-size: .6875em; 
+}
+.haber44{
+    background-image: url('https://picsum.photos/450/200');
+    font-size: 1em;
+    width:  calc(20% - 8px);
+    height: 162px;
+    position: absolute;
+    left: 15%;
+    top: 170%;
+}
+
+.yayinhizalama4{
+    position: absolute;
+    left: 36%;
+    top: 170%;
+}
+.mobil4{
+    color: gray;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.yayinyazi4{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.isim4{
+    color: gray;
+    display: inline-block;
+}
+.yayinhizalama4 i{
+    color: gray;
+    opacity: 0.6;
+    margin-top: 10px;   
+}
+
+
+.icons5{
+    position: relative;
+    left: -10%;
+    top: 105px;
+    color: gray;
+    font-size: .6875em;
+}
+.haber45{
+    background-image: url('https://picsum.photos/450/200');
+    font-size: 1em;
+    width:  calc(20% - 8px);
+    height: 162px;
+    position: absolute;
+    left: 15%;
+    top: 200%;
+}
+
+.yayinhizalama5{
+    position: absolute;
+    left: 36%;
+    top: 200%;
+}
+.mobil5{
+    color: gray;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.yayinyazi5{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.isim5{
+    color: gray;
+    display: inline-block;
+}
+.yayinhizalama5 i{
+    color: gray;
+    opacity: 0.6;
+    margin-top: 10px;   
+}
+.enalt{
+    width: 200px;
+    position: absolute;
+    top: 225%;
+
+    margin: 40px;
+}
+.enalt i{
+    color: gray;
+}
+.enalt span{
+    color: gray;
+    font-weight: bold;
+}
+
+.sag{
+    width: 30%;
+    float: right;
+}
+.sag span{
+     color: #ff5722;
+     font-weight: bold;
+     font-size: 25px;
+}
+.sag p{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    margin-right: 200px;
+}
+.yanhaber{
+    background-image: url('https://picsum.photos/650/250');
+    font-size: 1em;
+    width:  calc(75% - 8px);
+    height: 162px;
+}
+.yankucuk{
+    background-image: url('https://picsum.photos/150/150');
+    font-size: 1em;
+    width:  calc(25% - 8px);
+    height: 100px;
+    float: left;
+    margin-right: 10px;
+}
+.takip img{
+    width: 40px;  
+    height: 40px;
+    margin-right: 10px;  
+    margin-top: 10px;
+
+}
+.takip p{
+  font-size: 12px;
+  color: #999;
+}
+.takip span{
+    color: black;
+    font-size: 16px;
+    
+}
+.face{
+    position: relative;
+    top: 10px;
+}
+.tw{
+    position: relative;
+    left: 15%;
+    top: -103px;
+    margin-right: 100%;
+}
+.you{
+    position: relative;
+    left: 30%;
+    top: -215px;
+    margin-right: 100%;
+}
+.insta{
+    position: relative;
+    left: 43%;
+    top: -326px;
+    margin-right: 100%;
+}
+.altHaber2{
+    position: relative;
+    top: 250px;
+}
+.altHaber3{
+    position: relative;
+    top: 450px;
+}
+.altHaber4{
+    position: relative;
+    top: 650px;
+}
+.altHaber5{
+    position: relative;
+    top: 850px;
+}
+.altHaber6{
+    position: relative;
+    top: 1050px;
+}
+.altHaber7{
+    position: relative;
+    top: 1250px;
+}
+.altHaber8{
+    position: relative;
+    top: 1450px;
+}
+.altHaber9{
+    position: relative;
+    top: 1650px;
+}
+.altHaber10{
+    position: relative;
+    top: 1850px;
+}
+.altHaberson{
+    position: relative;
+    top: 2050px;
+}
+.i{
+    position: relative;
+    top: 50px;
+    width: 100%;
+}
+.altHaberler i{
+    background-color: orange;
+    text-align: center;
+}
